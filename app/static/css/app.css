@@ -1,3 +1,14 @@
 body {
     padding-top: 5rem;
 }
+.upload-list{
+    display: grid; 
+    list-style-type: none;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+}
+
+.upload-list li img{
+    width: 350px;
+    height: 250px;
+}
